@@ -1,0 +1,10 @@
+.blurred {
+    filter: blur(2px);
+    pointer-events: none; /* Prevent interaction with blurred content */
+  }
+  
+  .position-fixed {
+    position: fixed;
+    z-index: 1000; /* Ensure the popup appears on top */
+  }
+  
